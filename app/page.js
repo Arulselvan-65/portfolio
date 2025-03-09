@@ -23,7 +23,6 @@ export default function Home() {
         <title>Arulselvan M | Blockchain & Web3 Developer</title>
         <meta name="description" content="Portfolio of Arulselvan M - Blockchain & Web3 Developer" />
         <link rel="icon" href="/favicon.ico" />
-        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
       </Head>
 
       {/* Background with Particles */}
@@ -111,14 +110,7 @@ export default function Home() {
                 alt="Arulselvan M"
                 className="rounded-full w-full h-full object-cover border-4 border-purple-600 p-1 bg-gray-900 relative z-10"
               />
-              <div className="absolute -right-10 -top-10 bg-blue-500 bg-opacity-10 backdrop-blur-xl rounded-xl p-4 border border-blue-400 border-opacity-30 shadow-xl">
-                <div className="text-sm font-medium">B.Tech (CSBS)</div>
-                <div className="text-xs text-blue-300">CGPA: 8.08</div>
-              </div>
-              <div className="absolute -left-10 -bottom-5 bg-purple-500 bg-opacity-10 backdrop-blur-xl rounded-xl p-4 border border-purple-400 border-opacity-30 shadow-xl">
-                <div className="text-sm font-medium">Web3 Developer</div>
-                <div className="text-xs text-purple-300">Solidity + MERN Stack</div>
-              </div>
+              
             </div>
           </motion.div>
         </div>
